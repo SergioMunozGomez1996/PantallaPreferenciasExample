@@ -1,0 +1,24 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="colores_entries">
+        <item>Verde claro</item>
+        <item>Verde oscuro</item>
+        <item>Magenta</item>
+    </string-array>
+
+    <string-array name="colores_values">
+        <item>#008577</item>
+        <item>#00574B</item>
+        <item>#D81B60</item>
+    </string-array>
+</resources>
