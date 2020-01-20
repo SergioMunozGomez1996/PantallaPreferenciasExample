@@ -15,7 +15,6 @@ public class SettingsActivity extends AppCompatActivity implements
 
     private static final String TITLE_TAG = "settingsActivityTitle";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

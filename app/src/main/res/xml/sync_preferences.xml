@@ -19,7 +19,7 @@
 
     <SeekBarPreference
         app:key="transparenciaSeekbar"
-        app:title="Tamaño letra"
+        app:title="Transparencia letra"
         app:min="0"
         android:max="100"
         app:defaultValue="50">
@@ -34,16 +34,5 @@
         app:defaultValue="90">
 
     </SeekBarPreference>
-
-    <SwitchPreferenceCompat
-        app:key="sync"
-        app:title="@string/sync_title" />
-
-    <SwitchPreferenceCompat
-        app:dependency="sync"
-        app:key="attachment"
-        app:summaryOff="@string/attachment_summary_off"
-        app:summaryOn="@string/attachment_summary_on"
-        app:title="@string/attachment_title" />
 
 </PreferenceScreen>
